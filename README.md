@@ -99,3 +99,6 @@ ECB解密结果:I Love You
   
 如果发现错误 , 请不吝赐教!  xjfme@outlook.com
 
+ ### 20201121 兼容bcprov-jdk15on-1.60版本
+升级cn.xjfme.encrypt.utils.sm2.Cipher.java使其兼容高版本bcprov-jdk15on-1.60.jar
+
