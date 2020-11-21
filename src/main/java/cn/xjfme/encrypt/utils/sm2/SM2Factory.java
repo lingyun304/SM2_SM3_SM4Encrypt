@@ -56,7 +56,7 @@ public class SM2Factory {
 
 		this.ecc_curve = new ECCurve.Fp(this.p, this.a, this.b);
 
-		this.ecc_point_g = new ECPoint.Fp(this.ecc_curve, this.ecc_gx_fieldelement,this.ecc_gy_fieldelement);
+		this.ecc_point_g = new ECPoint.Fp(this.ecc_curve, this.ecc_gx_fieldelement,this.ecc_gy_fieldelement,false);
 		this.ecc_bc_spec = new ECDomainParameters(this.ecc_curve, this.ecc_point_g, this.n);
 
 		ECKeyGenerationParameters ecc_ecgenparam;
